@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador de Toxicidad</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script>
+</head>
+<body>
+    <h1>Analizador de Toxicidad</h1>
+
+    <textarea id="inputText" rows="4" cols="50" placeholder="Escribe algo..."></textarea><br>
+    <button id="analyzeButton">Analizar Toxicidad</button>
+
+    <h2>Resultados:</h2>
+    <pre id="results"></pre> <!-- Usamos <pre> para mostrar el JSON formateado -->
+
+    <script src="../src/index.js"></script>
+</body>
+</html>

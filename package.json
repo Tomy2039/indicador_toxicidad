@@ -1,0 +1,17 @@
+{
+  "name": "toxicidad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.0.3",
+    "@tensorflow/tfjs": "^4.22.0"
+  }
+}
